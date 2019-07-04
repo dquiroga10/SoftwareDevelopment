@@ -1,0 +1,37 @@
+File: Explorer 
+-Responsibilities: 
+	- get the robot out of the maze
+	- return the energy consumption used by the robot
+	- return the length of the path 
+-Collaborators:
+	-BasicRobot
+	-Controller
+	-Cells
+	-CardinalDirection
+	-MazeConfig
+	-Random
+	
+	
+File: WallFollower
+-Responsibilities: 
+	-gets the robot out of the maze by just hugging the left wall until the exit cell
+	-gives the energy used at the end and the path of the robot
+	
+-Collaborators:
+	-BasicRobot
+	-Controller
+	-CardinalDirection
+
+File: Wizard
+-Responsibilities: 
+	-gets the robot out of the maze in the quickest way possible
+	-returns the amount of energy used by the robot and the integer of the path it took
+	
+-Collaborators:
+	-BasicRobot
+	-Controller
+	-MazeConfig
+	-CardinalDirectoin
+	-Distance
+
+

@@ -1,0 +1,22 @@
+File: ManualDriver
+-Responsibilities: 
+	-allow the user to manually control the robot
+	-give the pathlength at the end and the energy consumption
+	
+-Collaborators:
+	-BasicRobot
+	-Controller
+	-Distance
+
+File: BasicRobot 
+-Responsibilities: 
+	-when the driver needs to preform a movement, basicrobot writes out the actual movement and sends it to controller 
+	-keeps track of the battery
+	-keeps track of the pathLength
+	-tells how far away an obstacle is
+	
+	
+-Collaborators:
+	-Cells
+	-Controller
+	-CardinalDirection
